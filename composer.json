@@ -1,0 +1,29 @@
+{
+    "name": "laket/laket-pclzip",
+    "description": "A zip tool.",
+    "keywords": [
+        "laket",
+        "admin",
+        "zip",
+        "pclzip",
+        "laket-pclzip"
+    ],
+    "homepage": "https://github.com/deatil/laket-pclzip",
+    "type": "library",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "deatil",
+            "email": "deatil@github.com",
+            "homepage": "https://github.com/deatil"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laket\\Admin\\Support\\": "src/Support"
+        }
+    }
+}
